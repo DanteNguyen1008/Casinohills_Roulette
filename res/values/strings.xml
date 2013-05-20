@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kibow Roulette</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_splash_screen_acivity">SplashScreenAcivity</string>
+    <string name="title_activity_register_screen">RegisterScreen</string>
+    <string name="title_activity_view_history">ViewHistoryActivity</string>
+    <string name="app_id">548981545122265</string>
+    <string name="title_activity_login_from_platform">LoginFromPlatformActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

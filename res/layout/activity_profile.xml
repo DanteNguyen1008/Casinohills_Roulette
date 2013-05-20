@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/rela1"
+            android:layout_width="wrap_content"
+
+            android:layout_height="50dp">
+
+        <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_back"
+                android:background="#1B0A2A"
+                />
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Profile"
+                android:textColor="#FAFAFA"
+                android:background="@drawable/btn_title"
+                android:layout_toRightOf="@+id/btn_back"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rela1"
+            android:layout_marginTop="-5dp"
+            android:background="#BDBDBD">
+
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+            <Button
+                    android:id="@+id/btn_change_password"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+
+
+                    android:background="@drawable/button_play_press"
+                    android:text="Change Password"
+                    android:textColor="#EFFBFB"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/btn_bitcoin"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/btn_change_password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_play_press"
+                    android:text="Withdraw"
+                    android:textColor="#EFFBFB"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/btn_sent_deposit"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/btn_bitcoin"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_play_press"
+                    android:text="Send Deposit"
+                    android:textColor="#EFFBFB"
+                    android:textStyle="bold"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

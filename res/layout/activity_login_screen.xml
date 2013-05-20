@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/rela1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+
+        <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_back"
+                android:background="#1B0A2A"
+                />
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Login"
+                android:textStyle="bold"
+                android:textColor="#FAFAFA"
+                android:background="@drawable/btn_title"
+                android:layout_toRightOf="@+id/btn_back"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rela1"
+            android:layout_marginTop="-5dp"
+            android:background="#BDBDBD">
+
+        <EditText
+                android:id="@+id/edt_username"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edit_password"
+                android:ems="10"
+                android:hint="User Name"
+                android:text="a1provip002"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#848484">
+        </EditText>
+
+        <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/edt_username"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edit_password"
+                android:ems="10"
+                android:hint="Password"
+                android:text="123456"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textColor="#848484">
+        </EditText>
+
+        <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/edt_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_play_press"
+                android:text="Sign in"
+                android:textColor="#EFFBFB"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/txt_create_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_sign_in"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:text="Create Account"
+                android:textColor="#045FB4"
+                android:textSize="14sp"/>
+
+        <TextView
+                android:id="@+id/txt_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btn_sign_in"
+                android:layout_marginRight="140dp"
+                android:layout_marginTop="10dp"
+                android:text="Forgot PassWord"
+                android:textColor="#045FB4"
+                android:textSize="14sp"/>
+        <!--
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFbName"
+            android:visibility="invisible"
+            android:layout_below="@+id/txt_create_account"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="You account disconnected"
+            android:textColor="#045FB4"
+            />
+        <Button 
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnLoginFacebook"
+            android:visibility="invisible"
+            android:layout_below="@+id/txt_create_account"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_fb_login"
+            />
+        <com.facebook.widget.LoginButton
+            android:id="@+id/facebookLoginButton"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+           />-->
+    </RelativeLayout>
+
+</RelativeLayout>
